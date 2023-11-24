@@ -1,0 +1,210 @@
+body{
+	display: flex;
+	padding-bottom: 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin:0;
+	padding:0;
+	}
+
+button{
+	background: #588157;
+	width: 271px;
+	height: 78px;
+	flex-shrink: 0;
+	color:#DAD7CD;;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+
+#heroSection{
+	/*width: 1596px;*/
+	height: 712px;
+	flex-shrink: 0;
+	background: url('images/HeroBG.png'), lightgray 50% / cover no-repeat;
+}
+
+#logoArea{
+	width:30%;
+	float:left;
+	margin-left:21px;
+	box-sizing:border-box;
+	padding:0;
+	
+}
+
+#logoArea h1{
+	color: #344E41;
+	font-family: Inter;	
+	font-size: 61px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+nav{
+	width:67%;
+	float:right;
+	background: #A3B18A;
+	margin-top:93px;
+	margin-bottom: 143px;
+	height:78px;
+}
+
+#ctaArea{
+	clear: both;
+    margin: auto;
+    text-align: center;
+}
+
+#ctaArea h2{
+	color: #344E41;
+	font-family: Inter;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom:0px;
+}
+
+#ctaArea p{
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width:700px;
+	margin:auto;
+}
+
+#ctaButton{
+	margin-top:40px;
+	width: 271px;
+	height: 78px;
+	flex-shrink: 0;
+	background: #588157;
+}
+
+#ctaButton{
+	color:#DAD7CD;;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+nav{
+	width: 67%;
+    float: right;
+    background: #A3B18A;
+    margin-top: 93px;
+    margin-bottom: 143px;
+    height: 78px;
+    overflow: hidden;
+}
+
+nav ul{
+	height: 78px;
+    margin: auto;
+    position: absolute;
+    padding-left: 0;
+}
+
+nav ul li{
+	list-style: none;
+    float: left;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    text-align: center;
+    padding: 28px;
+}
+
+nav ul li:hover{
+	color: #DAD7CD;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #588157;
+    padding: 28px;
+}
+
+/*OUR SERVICES AREA*/
+#ourServicesSection{
+	height: 1087px;
+	flex-shrink: 0;
+	background: #344E41;
+	overflow:hidden;
+
+	
+}
+#ourServicesSection h2{
+	text-align:center;
+	color: #DAD7CD;
+	font-family: Inter;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin:0;
+	padding-top:82px;
+}
+
+#allServices{
+	margin: auto;
+    width: 80%;
+    /* padding-left: 50px; */
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.services{
+	float:left;
+	width:16.75%;
+	padding:76px;
+	text-align:center;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+.services h4{
+	color: #DAD7CD;
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.services p{
+	color: #DAD7CD;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+}
+
+#testimonialsArea{
+	height: 1668px;
+	flex-shrink: 0;
+	background: #A3B18A;
+}
